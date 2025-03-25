@@ -16,7 +16,7 @@ public class SwaggerConfig implements WebFluxConfigurer {
     public OpenAPI apiInfo() {
         return new OpenAPI()
                 .addServersItem(new Server()
-                        .url("https://glorious-yodel-rq97x7rrgj7hrwq-8085.app.github.dev/")
+                        .url("https://8085-cristhopers-testmoquito-sd860nlw2yj.ws-us118.gitpod.io/")
                         .description("Servidor de desarrollo"))
                 .info(new Info()
                         .title("API REST DE NPH")

@@ -1,1 +1,3 @@
-/workspaces/Transac_kardex/src/test/java/pe/edu/vallegrande/SupplierNPH/SupplierNphApplicationTests.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Rest/UbigeoRestTest.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/SupplierNphApplicationTests.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Rest/SupplierRestTest.java
