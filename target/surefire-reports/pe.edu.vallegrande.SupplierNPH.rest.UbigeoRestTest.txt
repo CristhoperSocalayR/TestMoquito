@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.228 s <<< FAILURE! -- in pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest
-pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.testFindAll -- Time elapsed: 1.159 s <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.410 s <<< FAILURE! -- in pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest
+pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.testRestaurar -- Time elapsed: 1.305 s <<< ERROR!
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pe.edu.vallegrande.SupplierNPH.rest.UbigeoRest': Unsatisfied dependency expressed through field 'ubigeoService': No qualifying bean of type 'pe.edu.vallegrande.SupplierNPH.service.UbigeoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
@@ -22,7 +22,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.test.web.reactive.server.DefaultControllerSpec.initHttpHandlerBuilder(DefaultControllerSpec.java:134)
 	at org.springframework.test.web.reactive.server.AbstractMockServerSpec.configureClient(AbstractMockServerSpec.java:86)
 	at org.springframework.test.web.reactive.server.AbstractMockServerSpec.build(AbstractMockServerSpec.java:107)
-	at pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.setUp(UbigeoRestTest.java:31)
+	at pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.setUp(UbigeoRestTest.java:32)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -33,7 +33,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
 	... 21 more
 
-pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.testLogicalDelete -- Time elapsed: 0.020 s <<< ERROR!
+pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.testEliminarLogico -- Time elapsed: 0.054 s <<< ERROR!
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pe.edu.vallegrande.SupplierNPH.rest.UbigeoRest': Unsatisfied dependency expressed through field 'ubigeoService': No qualifying bean of type 'pe.edu.vallegrande.SupplierNPH.service.UbigeoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
@@ -53,7 +53,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.test.web.reactive.server.DefaultControllerSpec.initHttpHandlerBuilder(DefaultControllerSpec.java:134)
 	at org.springframework.test.web.reactive.server.AbstractMockServerSpec.configureClient(AbstractMockServerSpec.java:86)
 	at org.springframework.test.web.reactive.server.AbstractMockServerSpec.build(AbstractMockServerSpec.java:107)
-	at pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.setUp(UbigeoRestTest.java:31)
+	at pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.setUp(UbigeoRestTest.java:32)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -64,7 +64,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
 	... 21 more
 
-pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.testRestore -- Time elapsed: 0.017 s <<< ERROR!
+pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.testListarTodos -- Time elapsed: 0.018 s <<< ERROR!
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pe.edu.vallegrande.SupplierNPH.rest.UbigeoRest': Unsatisfied dependency expressed through field 'ubigeoService': No qualifying bean of type 'pe.edu.vallegrande.SupplierNPH.service.UbigeoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
@@ -84,7 +84,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.test.web.reactive.server.DefaultControllerSpec.initHttpHandlerBuilder(DefaultControllerSpec.java:134)
 	at org.springframework.test.web.reactive.server.AbstractMockServerSpec.configureClient(AbstractMockServerSpec.java:86)
 	at org.springframework.test.web.reactive.server.AbstractMockServerSpec.build(AbstractMockServerSpec.java:107)
-	at pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.setUp(UbigeoRestTest.java:31)
+	at pe.edu.vallegrande.SupplierNPH.rest.UbigeoRestTest.setUp(UbigeoRestTest.java:32)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)

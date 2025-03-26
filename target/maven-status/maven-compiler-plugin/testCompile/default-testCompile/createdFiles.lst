@@ -1,3 +1,5 @@
-pe/edu/vallegrande/SupplierNPH/rest/SupplierRestTest.class
-pe/edu/vallegrande/SupplierNPH/rest/UbigeoRestTest.class
+pe/edu/vallegrande/SupplierNPH/service/TypeSupplierServiceTest.class
 pe/edu/vallegrande/SupplierNPH/SupplierNphApplicationTests.class
+UbigeoServiceTest.class
+pe/edu/vallegrande/SupplierNPH/rest/SupplierRestTest.class
+pe/edu/vallegrande/SupplierNPH/service/ProductServiceTest.class

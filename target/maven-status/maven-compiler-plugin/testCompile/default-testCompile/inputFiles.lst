@@ -1,3 +1,5 @@
-/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Rest/UbigeoRestTest.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Test/TypeSupplierServiceTest.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Test/ProductServiceTest.java
 /workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/SupplierNphApplicationTests.java
-/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Rest/SupplierRestTest.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Test/SupplierRestTest.java
+/workspace/TestMoquito/src/test/java/pe/edu/vallegrande/SupplierNPH/Test/UbigeoServiceTest.java
